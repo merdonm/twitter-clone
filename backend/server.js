@@ -1,7 +1,7 @@
 import express from "express";
 import { PORT } from "./config/env.js";
-import connectDB from "./db/mongoDB.js";
 import authRouter from "./routes/auth.routes.js";
+import connectDB from "./db/mongoDB.js";
 
 const app = express();
 
